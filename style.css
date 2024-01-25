@@ -1,0 +1,79 @@
+* {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  height: 100vh;
+  color: #ecf0f1; /* Blanco para el texto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#particles-js {
+  background-color: #085182;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+#particles-js canvas {
+  pointer-events: none;
+}
+
+h1 {
+  font-size: 2.5em; /* Tamaño grande para el título */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #2ecc71; /* Verde */
+  color: #ecf0f1;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Agregado para espacio entre el botón y el siguiente elemento */
+}
+
+button:hover {
+  background-color: #27ae60; /* Verde más oscuro en el hover */
+}
+
+#mensaje {
+  font-size: 1.5em; /* Tamaño grande para el mensaje */
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-align: center; /* Alineado al centro */
+}
+
+#intento {
+  font-weight: bold;
+}
